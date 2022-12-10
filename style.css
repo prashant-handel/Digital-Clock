@@ -20,7 +20,7 @@ h1 {
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 4px rgb(0, 225, 255);
 }
-span{
+span {
   border-radius: 10px;
 }
 .clock {
@@ -62,4 +62,16 @@ span{
   font-size: 30px;
   background-color: rgba(99, 17, 206, 0.884);
   opacity: 20;
+}
+
+@media only screen and (max-width: 800px){
+  body {
+    scale: 25%;
+    width: 100vw;
+  }
+  h1 {
+    scale: 200%;
+    margin: 0;
+    margin-bottom: 250px;
+  }
 }
